@@ -6,6 +6,7 @@
     "yeoman-generator"
   ],
   "homepage": "https://github.com/estwo/generator-stbase",
+  "bugs": "https://github.com/estwo/generator-stbase/issues",
   "author": {
     "name": "Stuart Trann",
     "url": "https://github.com/estwo"
