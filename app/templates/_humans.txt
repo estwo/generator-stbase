@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <%= _.capitalize(projectAuthor) %> -- <role> -- <%= projectAuthorTwitter %>
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    <% if (optionNormalize) { %>Normalize.css, <% } %><% if (optionJquery2x) { %>jQuery, <% } %><% if (optionJquery1x) { %>jQuery, <% } %><% if (optionModernizr) { %>Modernizr<% } %>
+

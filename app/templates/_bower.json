@@ -1,0 +1,12 @@
+{
+  "name": "<%= _.slugify(projectName) %>",
+  "version": "0.0.0",
+  "dependencies": {<% if (optionNormalize) { %>
+    "normalize-css": "~2.1.2"<% } %><% if (optionJquery2x) { %>,
+    "jquery": "~2.0.3"<% } %><% if (optionJquery1x) { %>,
+    "jquery": "~1.10.2"<% } %><% if (optionModernizr) { %>,
+    "modernizr": "~2.6.2"<% } %><% if (optionCompassBootstrap) { %>,
+    "sass-bootstrap": "~2.3.0"<% } %><% if (optionRequireJS) { %>,
+    "requirejs": "~2.1.4"<% } %>
+  }
+}
